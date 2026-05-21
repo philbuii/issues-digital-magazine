@@ -19,5 +19,8 @@ export default defineConfig([
       globals: globals.browser,
     },
     ignores: ["src/routeTree.gen.ts"],
+    rules: {
+      "react-refresh/only-export-components": "off",
+    }
   },
 ]);
